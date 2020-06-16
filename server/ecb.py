@@ -71,7 +71,7 @@ def flag_aes(token):
 def main():
     false_encrypt = encrypt_aes('False]')
     true_encrypt = encrypt_aes('True]')
-    for i in range(0, 100, (len("[name=admin;password=") + len(";is_admin=False]"))):
+    for i in range(0, 100):
         plaintext = "[name=admin;password=" + 'z' * i + ";is_admin=False]"
         token = encrypt_aes(plaintext)
         if false_encrypt in token:
