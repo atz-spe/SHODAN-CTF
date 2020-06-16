@@ -58,4 +58,6 @@ Thus we can try to put enough padding in other filed of the request to isolate `
 So I did a [script](ecb.py) trying different size of padding until we found `UMk8uZZQX9GvlQrGzPy8vQ==` in it.  
 When we got it, we just need to replace this last block with `AzCp1hYuf+giBvkFpJ1uHA==` block, and we got an admin Token !
 We can know send it to `/flag` to claim the flag.  
-But no worries, the [script](ecb.py) does for us !
+But no worries, the [script](ecb.py) does it for us !
+
+![aes-ecb-script](/images/aes_ecb_script.png)
