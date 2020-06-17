@@ -9,7 +9,7 @@ Challenges solved : `26 / 27`
 Team mates : [Vedza](https://github.com/QuentinVezzani) / [Bababanks](https://github.com/Baptiste-Roux)  
 
 The format of this CTF was __Jeopardy__, and gathered 2 different categories focused on web security (server / client).  
-These write-ups describes the different challenges I managed to solve as well as the path I took, the techniques I used with my team.  
+These write-ups describes the different challenges I managed to solve as well as the path I took, the techniques I used.  
 
 ---
 
